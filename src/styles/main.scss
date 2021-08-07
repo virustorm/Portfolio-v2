@@ -1,0 +1,21 @@
+@import './partials/mainBody';
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.particalBackground{
+    height: 100%;
+      background-image: url(../assets/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+.appDiv{
+    height: 100vh;
+}
