@@ -1,21 +1,7 @@
-// .mainBody{
-//       position: absolute;
-//   top: 0;
-//   right: 0;
-//   left: 0;
-//   bottom: 0;
-// //   margin: 10px;
-//   background-color: grey;
-//   &-textDiv{
-// position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   margin-right: -50%;
-//   transform: translate(-50%, -50%);
-//   position: absolute;
-//   color: white;
-//   }
-// }
+.mainBody{
+  height:100vh
+}
+
 
 #text_div {
   position: absolute;
@@ -24,14 +10,56 @@
   left: 0;
   bottom: 0;
   margin: 10px;
+
 }
 
 .center_all {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  position: absolute;
   color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.title{
+    &_name{
+        color: rgb(185, 122, 149);
+    }
+    &_button {
+        background-color: transparent;
+        font-size: 20px;
+        padding: 10px 25px;
+        color: white;
+        border-color: white;
+        border-width: 3px;
+        display:block;
+      &:hover{
+         cursor: pointer;
+          transition: all 0.5s ease-in-out;
+          background-color: white;
+        //   font-size: 25px;
+          color: black;
+          margin-left: 20px;
+      }
+    
+      }  
+  
+     
+    
+    
+    
 }

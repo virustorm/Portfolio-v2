@@ -1,11 +1,12 @@
+@import './partials/fonts';
 @import './partials/mainBody';
-
-
+@import './partials/about';
 
 html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'RobotoRegular';
     
 }
 

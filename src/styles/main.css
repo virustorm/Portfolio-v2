@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+.mainBody {
+  height: 100vh;
+}
+
 #text_div {
   position: absolute;
   top: 0;
@@ -9,19 +23,72 @@
 
 .center_all {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   margin-right: -50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  position: absolute;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.title_name {
+  color: #b97a95;
+}
+
+.title_button {
+  background-color: transparent;
+  font-size: 20px;
+  padding: 10px 25px;
+  color: white;
+  border-color: white;
+  border-width: 3px;
+  display: block;
+}
+
+.title_button:hover {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'RobotoRegular';
 }
 
 .particalBackground {
